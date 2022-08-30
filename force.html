@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Force</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel = "icon" href = 
+"https://th.bing.com/th/id/OIP.bGYjfo2nPAUmyuiut2AF6QHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" 
+        type = "image/x-icon">
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+
+  <div class="header">
+  
+  <!--Content before waves-->
+
+  <div class="inner-header flex">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="force.html">Force</a></li>
+  <li><a href="displacement.html">Displacement</a></li>
+  <li><a href="friction.html">Friction</a></li>
+  <li><a href="kinetic.html">Kinetic</a></li>
+  </ul>
+  </div>
+  </div>
+
+  <div class="main-container">
+    <div class="heading">
+      <br>
+      <h1 class="heading__title">Force: F = ma</h1>
+      <br id="heightAdjustment">
+
+    <input type="text" placeholder="Force (N)" id="forceVal">
+    <br>
+    <br>
+
+    <input type="text" placeholder="Mass (kg)" id="forceVal2">
+    <br>
+    <br>
+    <input type="text" placeholder="Acceleration (m/s^2)" id="forceVal3">
+    <br>
+    <br>
+    <br>
+    <button id="displayAnswer" type="button" onclick="calculateForce();">Calculate</button>
+    <br>
+    <br id="heightAdjustment">
+      
+    <br id="heightAdjustment">
+
+</body>
+
+</html>
